@@ -1,4 +1,118 @@
 
+/*setear css*/
+
+body {
+ box-sizing: border-box;
+ color: white;
+ font-family:'Montserrat';
+ margin: 0%;
+ padding: 0%;
+}
+
+/*Editando main*/
+
+.background {
+background-image:url(https://raw.githubusercontent.com/SIlviaTivi/lyft/master/assets/images/hero.gif No se ha expandido automáticamente porque 4MB es demasiado grande. Puedes expandirla de todos modos o abrirla en una nueva ventana. También puedes cambiar tus preferencias para que se expandan automáticamente todas las imágenes, sean del tamaño que sean. );
+background-size: 100%;
+}
+
+.lyft1 {
+ margin: 0;
+ padding: 0;
+}
+
+
+.lyft1 {
+ margin: 0;
+ padding: 0;
+}
+
+.image-part1 {
+ width: 100%;
+}
+
+/*Editando header*/
+.static {
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ z-index: 1030;
+ margin: 0;
+ padding: 0;
+}
+
+.box-header {
+ display: inline-block;
+}
+
+.logo-header {
+ width: 64px;
+}
+
+li a {
+ color: inherit;
+ text-decoration: none;
+}
+
+li:hover {
+ color: #FF91E3 ;
+}
+
+ul li {
+ display: inline;
+ list-style: none;
+ margin: 5px;
+}
+
+header {
+ position: absolute;
+}
+
+nav {
+ position: absolute;
+ right: 5%;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+.box-header {
+ display: inline-block;
+}
+/* Falta darle color al borde del boton*/
+.btn {
+ background-color: inherit;
+ border: 10px;
+ border-bottom-width: 5px;
+ border-width: 10px;
+ border-bottom-color: white;
+ border-radius: 5px;
+ color: #ffffff ;
+ font-family: inherit;
+ padding: 10px;
+}
+
+.btn-text {
+ size: 1em;
+}
+/* Editando sección 1*/
+
+.section_1 {
+ position: relative;
+}
+
+.text-part1 {
+ background-color: black;
+ color: #352384 ;
+ width: 30%;
+ position: relative;
+
+
+
+
+
+
+
 /*secccion 2 */
 .section_2{
   margin: 0;
@@ -84,4 +198,106 @@
 .l3{
   font-family: 'Montserrat';
   font-size: 20px;
+=======
+/*setear css*/
+
+body {
+  box-sizing: border-box;
+  color: white;
+  font-family:'Montserrat';
+  margin: 0%;
+  padding: 0%;
+>>>>>>> 1ac242c6237a3d0afbbbf44c7db932bf0ef82cc5
+}
+
+/*Editando main*/
+
+.background {
+background-image:url(https://raw.githubusercontent.com/SIlviaTivi/lyft/master/assets/images/hero.gif);
+background-size: 100%;
+}
+
+.lyft1 {
+  margin: 0;
+  padding: 0;
+}
+
+.image-part1 {
+  width: 100%;
+}
+
+ /*Editando header*/
+.static {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.box-header {
+  display: inline-block;
+}
+
+.logo-header {
+  width: 64px;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li:hover {
+  color: #FF91E3;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+  margin: 5px;
+}
+
+header {
+  position: absolute;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box-header {
+  display: inline-block;
+}
+/* Falta darle color al borde del boton*/
+.btn {
+  background-color: inherit;
+  border: 10px;
+  border-bottom-width: 5px;
+  border-width: 10px;
+  border-bottom-color: white;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.btn-text {
+  size: 1em;
+}
+ /* Editando sección 1*/
+
+.section_1 {
+  position: relative;
+}
+
+.text-part1 {
+  background-color: black;
+  color: #352384;
+  width: 30%;
+  position: relative;
+
 }
