@@ -1,4 +1,87 @@
-.section_2{
- background-color: linear-gradient(#76278F, #2B1E66);
 
+/*secccion 2 */
+.section_2{
+  margin: 0;
+  padding: 0;
+ background-color:#76278F;
+ box-sizing: border-box;
+ justify-content: center;
+}
+.columns_secc_2{
+  width: 100%;
+}
+.right_secc2 img{
+  height: 500px;
+  width: 500px;
+}
+.columns{
+  display: inline-block;
+}
+
+.left_secc_2{
+  width: 40%;
+  padding : 50px;
+  justify-content: center;
+  color: white;
+  margin: 50px;
+}
+.right_secc_2{
+}
+
+.title_2{
+  font-family: 'Montserrat';
+  font-size: 30px;
+}
+.l{
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+
+/*seccion 3*/
+
+.section_3{
+  margin: 0;
+  padding: 0;
+  height: 400px;
+ background-color:white;
+ box-sizing: border-box;
+ justify-content: center;
+
+}
+.columns_secc_3{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.right_secc2 img{
+  height: 500px;
+  width: 500px;
+}
+.columns{
+  display: inline-block;
+}
+
+.left_secc_3{
+  width: 30%;
+  padding :0 100px;
+  justify-content: center;
+  color: black;
+  margin: 10px;
+}
+.right_secc_3{
+  width: 40%;
+
+}
+
+
+.title_3{
+  font-family: 'Montserrat';
+  font-size: 30px;
+}
+
+.l3{
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
